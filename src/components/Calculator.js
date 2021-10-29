@@ -25,12 +25,12 @@ function Calculator() {
     function number(number) {
         dispatch({type:"NUMBER",number})
     }
-    
+
     return (
         <div>
             <NumberContainer>
                 {[1,2,3,4,5,6,7,8,9,0].map((el,i) => (
-                    <Bouton key={i} onClick={() => number(i)}>{el}</Bouton>
+                    <Bouton key={i} onClick={() => number(el)}>{el}</Bouton>
                 ))}
             </NumberContainer>
             <OperatorContainer>
