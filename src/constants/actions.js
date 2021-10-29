@@ -1,0 +1,4 @@
+export const ADDITION = "ADDITION"
+export const SOUSTRACTION = "SOUSTRACTION"
+export const MULTIPLICATION = "MULTIPLICATION"
+export const NUMBER = "NUMBER"
