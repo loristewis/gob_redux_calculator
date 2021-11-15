@@ -20,4 +20,8 @@ const OperatorContainer = styled.div`
     justify-content:center;
 `
 
-export {Bouton,NumberContainer,OperatorContainer}
+const ErrorMessage = styled.p`
+    color:red;
+`
+
+export {Bouton,NumberContainer,OperatorContainer,ErrorMessage}

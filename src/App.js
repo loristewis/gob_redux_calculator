@@ -1,12 +1,13 @@
 import Calculator from "./components/Calculator";
 import Result from "./components/Result";
+import GlobalStyle from "./Styles/Global";
 
 function App() {
   return (
     <div className="App">
-        <Calculator/>
-        <Result/>
-
+      <GlobalStyle/>
+      <Calculator/>
+      <Result/>
     </div>
   );
 }
