@@ -4,13 +4,11 @@ import {
     MULTIPLEOPERATORS,
     NOERROR
 } from '../constants/actions'
-
 const stateInit = {
     errorMessage:""
 }
 
 export default function errorReducer(state=stateInit,action) {
-
     switch(action.type) {
         case BEGINWITHMULTIPLICATION:
             return {

@@ -16,7 +16,7 @@ import {
     NumberContainer,
     OperatorContainer,
     ErrorMessage
-} from '../Styles/Bouton'
+} from '../Styles/Styles'
 
 function Calculator() {
     const dispatch = useDispatch()

@@ -1,5 +1,12 @@
 
-import {ADDITION,SOUSTRACTION,MULTIPLICATION,NUMBER,RESULT,RESET} from '../constants/actions'
+import {
+    ADDITION,
+    SOUSTRACTION,
+    MULTIPLICATION,
+    NUMBER,
+    RESULT,
+    RESET
+} from '../constants/actions'
 
 const stateInit = {
     actualOperation:"",
@@ -12,6 +19,7 @@ export default function calculReducer(state=stateInit,action) {
   
     switch(action.type) {
         case ADDITION:
+            
             return {
                 ...state,
                 actualOperation: state.actualOperation+"+"
